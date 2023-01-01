@@ -16,7 +16,7 @@ const App = () => {
 
     // Determine the result of the game
     if (choice === computerChoice) {
-      setResult('C\'est\ une égalité.');
+      setResult('Égalité.');
     } else if (
       (choice === 'Pierre' && computerChoice === 'Ciseaux') ||
       (choice === 'Feuille' && computerChoice === 'Pierre') ||
